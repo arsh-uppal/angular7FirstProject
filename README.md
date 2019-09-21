@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyFirstProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular7FirstProject
+Learning Angular 7.0
+>>>>>>> e6a0700327a17017e7d9cc04c3990b494731aa40

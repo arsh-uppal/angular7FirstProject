@@ -12,7 +12,7 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit() {
   }
 
-  @Input() selectedHero: Hero;
+  @Input() pickedHero: Hero;
   
 
 }

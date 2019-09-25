@@ -19,11 +19,12 @@ export class HeroesComponent implements OnInit {
     name: 'Windstorm'
   };
   
-  heroes = HEROES;
+  heroes:Object = HEROES;
   
-  selectedHero:Hero;
+  selectedH:Hero;
   onSelect(hero:Hero) : void {
-    this.selectedHero=hero;
+    this.selectedH=hero;
+    console.log(this.heroes);
   };
 
 }

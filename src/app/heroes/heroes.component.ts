@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {Hero} from '../hero';
-import {HEROES} from '../mock-heroes';
+import { Hero } from '../hero';
+import { HEROES } from '../mock-heroes';
+import { HeroService } from '../hero.service';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
@@ -9,7 +10,7 @@ import {HEROES} from '../mock-heroes';
 })
 export class HeroesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private heroService: HeroService) { }
   ngOnInit() { 
     
   }
